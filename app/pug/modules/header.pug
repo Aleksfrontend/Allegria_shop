@@ -1,1 +1,169 @@
 block header 
+	header(role="banner")#header.header
+		.header__menu
+			a(href="#").logo__link
+			nav#nav.nav
+				ul.nav__list
+					li.nav__item
+						a(href="#").nav__link.nav__link_active Женщины
+					li.nav__item
+						a(href="#").nav__link Мужчины 
+			.search
+				form(action="#" role="search").search-form
+					label(for=".search-form__menu").search-form__label Поиск
+					input(type="search" name="search" autocomplete="off" value="")#search-form__menu.search-form__menu
+					//- button(type="submit").button.search-button
+			.languages 
+				ul.languages__list 
+					li.languages__item.languages__item_active
+						a(href="#").languages__link.languages__link_active Ru
+					li.languages__item 
+						a(href="#").languages__link Ua
+					li.languages__item 
+						a(href="#").languages__link En
+			.user-menu 
+				ul.user-menu__list 
+					li.user-menu__item 
+						a(href="#").user-menu__link
+							img(src="img/icon-user.png", alt="Личный кабинет").user-menu__img
+					li.user-menu__item  
+						a(href="#").user-menu__link
+							img(src="img/icon-favorites.png", alt="Избранное").user-menu__img
+					li.user-menu__item  
+						a(href="#").user-menu__link
+							img(src="img/icon-cart.png", alt="Корзина").user-menu__img
+			.burger-menu 
+				img(src="img/burger-menu.png", alt="Menu").burger
+				img(src="img/close-menu.png", alt="Закрыть").dropdown-close
+		.dropdown-menu
+			.dropdown-menu__nav 
+				nav#nav.nav
+					ul.nav__list
+						li.nav__item
+							a(href="#").nav__link.nav__link_active Женщины
+						li.nav__item
+							a(href="#").nav__link Мужчины 
+				.search
+					form(action="#" role="search").search-form
+						label(for=".search-form__menu").search-form__label Поиск
+						input(type="search" name="search" autocomplete="off" value="")#search-form__menu.search-form__menu
+						//- button(type="submit").button.search-button
+				.languages 
+					ul.languages__list 
+						li.languages__item.languages__item_active
+							a(href="#").languages__link.languages__link_active Ru
+						li.languages__item 
+							a(href="#").languages__link Ua
+						li.languages__item 
+							a(href="#").languages__link En
+			.dropdown-menu__block
+				ul.dropdown-menu__title-items
+					li.dropdown-menu__title-item
+						.dropdown-menu__title-pluse
+							h4.dropdown-menu__title Одежда
+							img(src="img/pluse.png", alt="Расскрыть").dropdown-menu__img.dropdown-menu__pluse
+							img(src="img/minus.png", alt="Закрыть").dropdown-menu__img.dropdown-menu__minus
+						ul.dropdown-menu__sked-items
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Свитшоты и худи
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Платья юбки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Футболки и топы
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Брюки и шорты
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Рубашки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Комбинезоны
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Леггинсы
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Куртки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Пальто
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Плащи
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Желетки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Ветровки
+					li.dropdown-menu__title-item
+						.dropdown-menu__title-pluse
+							h4.dropdown-menu__title Обувь
+							img(src="img/pluse.png", alt="Расскрыть").dropdown-menu__img.dropdown-menu__pluse
+							img(src="img/minus.png", alt="Закрыть").dropdown-menu__img.dropdown-menu__minus
+						ul.dropdown-menu__sked-items
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Кроссовки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Шлепанцы
+					li.dropdown-menu__title-item
+						.dropdown-menu__title-pluse
+							h4.dropdown-menu__title Сумки
+							img(src="img/pluse.png", alt="Расскрыть").dropdown-menu__img.dropdown-menu__pluse
+							img(src="img/minus.png", alt="Закрыть").dropdown-menu__img.dropdown-menu__minus
+						ul.dropdown-menu__sked-items
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Сумки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Рюкзаки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Кроссбоди
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Поясные
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Спортивные
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Шопперы
+					li.dropdown-menu__title-item
+						.dropdown-menu__title-pluse
+							h4.dropdown-menu__title Аксесуары
+							img(src="img/pluse.png", alt="Расскрыть").dropdown-menu__img.dropdown-menu__pluse
+							img(src="img/minus.png", alt="Закрыть").dropdown-menu__img.dropdown-menu__minus
+						ul.dropdown-menu__sked-items
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Головные уборы
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Перчатки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Шарфы и платки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Носки
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Гетры
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link др
+					li.dropdown-menu__title-item
+						.dropdown-menu__title-pluse
+							h4.dropdown-menu__title Белье
+							img(src="img/pluse.png", alt="Расскрыть").dropdown-menu__img.dropdown-menu__pluse
+							img(src="img/minus.png", alt="Закрыть").dropdown-menu__img.dropdown-menu__minus
+						ul.dropdown-menu__sked-items
+							li.dropdown-menu__sked-item
+								a.dropdown-menu__sked-link Разное
+				.dropdown-menu__down-search-lang 
+					.search
+						form(action="#" role="search").search-form
+							label(for=".search-form__menu").search-form__label Поиск
+							input(type="search" name="search" autocomplete="off" value="")#search-form__menu.search-form__menu
+							//- button(type="submit").button.search-button
+					.languages 
+						ul.languages__list 
+							li.languages__item.languages__item_active
+								a(href="#").languages__link.languages__link_active Ru
+							li.languages__item 
+								a(href="#").languages__link Ua
+							li.languages__item 
+								a(href="#").languages__link En
+			.dropdown-menu__brands
+				.dropdown-menu__brand 
+					ul.dropdown-menu__brand-items
+						li.dropdown-menu__brand-item
+							a(href="#").dropdown-menu__brand-link Deha
+						li.dropdown-menu__brand-item
+							a(href="#").dropdown-menu__brand-link American Vintage
+						li.dropdown-menu__brand-item
+							a(href="#").dropdown-menu__brand-link George Gina Lucy
+						li.dropdown-menu__brand-item
+							a(href="#").dropdown-menu__brand-link Birkenstock
